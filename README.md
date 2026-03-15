@@ -9,6 +9,49 @@
 
 This project implements an automated pipeline for the detection and characterization of **Halo Coronal Mass Ejections (CMEs)** using **in-situ solar wind plasma and suprathermal particle data** from the **SWIS-ASPEX instrument** aboard **ISRO's Aditya-L1 mission**. The workflow leverages advanced statistical anomaly detection, multi-parameter composite scoring, and cross-validation to robustly identify heliospheric transients.
 
+## 🌐 Live Interactive Dashboard
+
+Experience the Halo CME detection results in real-time with our interactive dashboard!
+
+[![Streamlit App](https://img.shields.io/badge/🚀_Live_Demo-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://halocmedetection-dashboard.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/📊_View_on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Adi-bhalekar/Halo_CME_Detection)
+
+<p align="center">
+  <img src="plots/dashboard_preview.png" alt="Halo CME Detection Dashboard" width="800"/>
+  <br>
+  <em>Interactive dashboard showing 129 detected Halo CME events</em>
+</p>
+
+### ✨ Dashboard Features
+
+| Feature | Description |
+|---------|-------------|
+| 📊 **129 CME Events** | Complete catalog of detected Halo CMEs |
+| 📈 **Interactive Time Series** | Visualize solar wind parameters with CME overlays |
+| 🎛️ **Smart Filters** | Filter by date range and CME strength |
+| 📅 **CME Timeline** | See all events in chronological order |
+| 📋 **Data Table** | Sortable, searchable event list |
+| 🎨 **Color Coding** | Weak (🟡), Moderate (🔵), Strong (🔴) events |
+
+### 🚀 Quick Access
+
+Click the badge above or visit: **[https://halocmedetection-dashboard.streamlit.app/](https://halocmedetection-dashboard.streamlit.app/)**
+
+### 🖥️ Local Development
+
+To run the dashboard locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Adi-bhalekar/Halo_CME_Detection.git
+cd Halo_CME_Detection
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the dashboard
+streamlit run streamlit_dashboard.py
+
 ### 🎯 Key Features
 
 - **Automated Detection Pipeline**: End-to-end processing from raw CDF files to CME event detection
@@ -31,7 +74,7 @@ This project implements an automated pipeline for the detection and characteriza
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Halo-CME-Detection.git
+   git clone https://github.com/Adi-bhalekar/Halo_CME_Detection.git
    cd Halo-CME-Detection
 Create and activate virtual environment
 
@@ -204,25 +247,15 @@ Update documentation as needed
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📚 Citation
-If you use this code in your research, please cite:
-
-bibtex
-@software{halo_cme_detection_2025,
-  author = {Your Name},
-  title = {Halo CME Detection using Aditya-L1 SWIS-ASPEX Data},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/Adi-bhalekar/Halo_CME_Detection}
-}
 🙏 Acknowledgments
 ISRO Aditya-L1 Mission & SWIS-ASPEX Science Team for the data
 SIDC/CACTus for the Halo CME reference catalog
 Bharat Antriksh Hackathon for the challenge framework
 Contributors who helped improve the detection algorithms
 
-📧 Contact
+📧 Contacts
 Aditya Bhalekar - adityabhalekar333@gmail.com
+Sai Bhamare - bhamresai83@gmail.com
 
 Project Link: https://github.com/Adi-bhalekar/Halo_CME_Detection
 
