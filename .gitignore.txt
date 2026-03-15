@@ -1,0 +1,42 @@
+# Virtual Environment - THIS IS CRITICAL!
+cme_env/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Data files (if too large)
+# data/*.csv
+# Data/*.cdf
+
+# Logs and temp files
+*.log
+*.bak
+*.tmp
+pipeline_execution.log
+*.cache
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Dashboard outputs (optional)
+# cme_dashboard.html
+# plots/*.png
