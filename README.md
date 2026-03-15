@@ -4,9 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-<p align="center">
-  <img src="plots/dashboard_preview.png" alt="Halo CME Detection Dashboard" width="800"/>
-</p>
 
 ## 📋 Overview
 
@@ -129,7 +126,6 @@ Strength distribution analysis
 
 Sortable data table of detected events
 
-<p align="center"> <img src="plots/dashboard_interactive_preview.png" alt="Interactive Dashboard" width="700"/> </p>
 📁 Project Structure
 text
 Halo-CME-Detection/
