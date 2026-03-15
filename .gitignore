@@ -1,0 +1,4 @@
+cme_env/ 
+__pycache__/ 
+*.log 
+cme_dashboard.html 
